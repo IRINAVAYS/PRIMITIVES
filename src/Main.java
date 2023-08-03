@@ -3,11 +3,10 @@
 public class Main {
     public static void main(String[] args) {
         int amount = 14000;
+        int percent = 20;
+        int miles = amount / percent;
 
-        int percent;
-        percent = 5;
-
-        System.out.println(percent);
+        System.out.println("Количество бонусных миль " + miles);
     }
 
 }
